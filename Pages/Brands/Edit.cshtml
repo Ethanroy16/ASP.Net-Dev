@@ -1,0 +1,38 @@
+﻿@page
+@model MyProject_L00181476.Pages.Brands.EditModel
+@{
+}
+<form method="post">
+    <input type="hidden" asp-for="Brand.Id" />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary pl-3">Edit Brand</h2>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Brand.BrandName"></label>
+            <input asp-for="Brand.BrandName" class="form-control" />
+            <span asp-validation-for="Brand.BrandName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Brand.Country"></label>
+            <input asp-for="Brand.Country" class="form-control" />
+            <span asp-validation-for="Brand.Country" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Brand.FoundedYear"></label>
+            <input asp-for="Brand.FoundedYear" type="number" class="form-control" />
+            <span asp-validation-for="Brand.FoundedYear" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a asp-page="Brands" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

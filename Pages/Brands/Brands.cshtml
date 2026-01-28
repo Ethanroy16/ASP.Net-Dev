@@ -1,0 +1,43 @@
+﻿@page
+@model MyProject_L00181476.Pages.Brands.BrandsModel
+@{
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h3 class="text-primary"> Brands</h3>
+        </div>
+        <div class="col-6">
+            <a asp-page="Create" class="btn btn-primary">
+                Create New Brand
+            </a>
+        </div>
+    </div>
+</div>
+
+<br /> <br /> <br />
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th> Golf Brands</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model.Brands)
+        {
+            <tr>
+                <td width="50%">@obj.BrandName</td>
+                <td width="50%">@obj.Country</td>
+                <td width="50%">@obj.FoundedYear</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a asp-page="Delete" asp-route-id="@obj.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
