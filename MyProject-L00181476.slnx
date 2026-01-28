@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="../RP1.DataAccess/RP1.DataAccess.csproj" Id="4f5c8f5d-584c-4b43-874c-60568960b760" />
+  <Project Path="../RP1.Models/RP1.Models.csproj" Id="a66b4f77-60e3-4dd9-8c89-347788cb9640" />
   <Project Path="MyProject-L00181476.csproj" />
 </Solution>

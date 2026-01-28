@@ -10,7 +10,9 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.23",
           "Microsoft.EntityFrameworkCore.Design": "8.0.23",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23",
+          "RP1.DataAccess": "1.0.0",
+          "RP1.Models": "1.0.0"
         },
         "runtime": {
           "MyProject-L00181476.dll": {}
@@ -783,6 +785,26 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "RP1.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.23",
+          "RP1.Models": "1.0.0"
+        },
+        "runtime": {
+          "RP1.DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RP1.Models/1.0.0": {
+        "runtime": {
+          "RP1.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1134,6 +1156,16 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "RP1.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RP1.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
