@@ -3,36 +3,37 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.DataAccess;
 using MyProject_L00181476.Models.Models;
+using RP1.DataAccess.Repository;
+using RP1.Services;
 
 namespace MyProject_L00181476.Pages.Admin.Brands
 {
     public class CreateModel : PageModel
     {
-        private readonly GolfDBContext _dbcontext;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CreateModel(GolfDBContext dbcontext)
+        public CreateModel(IUnitOfWork unitOfWork)
         {
-            _dbcontext = dbcontext;
+            _unitOfWork = unitOfWork;
         }
 
         [BindProperty]
-        public Brand Brand { get; set; } = new();
+        public Brand Brand { get; set; }
 
         public void OnGet()
         {
         }
 
-        public async Task<IActionResult> OnPost()
+        public IActionResult OnPost(Brand brand)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return Page();
+                _unitOfWork.BrandRepo.Add(brand);
+                _unitOfWork.Save();
             }
-
-            await _dbcontext.Brands.AddAsync(Brand);
-            await _dbcontext.SaveChangesAsync();
 
             return RedirectToPage("Brands");
         }
+            
     }
 }

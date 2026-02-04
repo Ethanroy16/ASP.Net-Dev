@@ -3,37 +3,41 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.DataAccess;
 using MyProject_L00181476.Models.Models;
+using RP1.DataAccess.Repository;
+using RP1.Services;
 
 namespace MyProject_L00181476.Pages.Admin.Brands
 {
     public class DeleteModel : PageModel
     {
-        private readonly GolfDBContext _dbcontext;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public DeleteModel(GolfDBContext dbcontext)
+        public DeleteModel(IUnitOfWork unitOfWork)
         {
-            _dbcontext = dbcontext;
+            _unitOfWork = unitOfWork;
         }
 
         [BindProperty]
-        public Brand Brand { get; set; } = new();
+        public Brand Brand { get; set; }
 
         public void OnGet(int id)
         {
-            Brand = _dbcontext.Brands.Find(id);
+            Brand = _unitOfWork.BrandRepo.Get(id);
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public IActionResult OnPost()
         {
-            var entity = await _dbcontext.Brands.FindAsync(Brand.Id);
+            // Use the bound Id to fetch the tracked entity, then delete.
+            var entity = _unitOfWork.BrandRepo.Get(Brand?.Id ?? 0);
             if (entity == null)
             {
                 return NotFound();
             }
 
-            _dbcontext.Brands.Remove(entity);
-            await _dbcontext.SaveChangesAsync();
-            return RedirectToPage("Brands");
+            _unitOfWork.BrandRepo.Delete(entity);
+            _unitOfWork.Save();
+
+            return RedirectToPage("/Admin/Brands/Brands");
         }
     }
 }
