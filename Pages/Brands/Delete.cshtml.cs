@@ -2,9 +2,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.DataAccess;
-using MyProject_L00181476.Models.Models;
+using MyProject_L00181476.Models;
 
-namespace MyProject_L00181476.Pages.Admin.Brands
+namespace MyProject_L00181476.Pages.Brands
 {
     public class DeleteModel : PageModel
     {
