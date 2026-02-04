@@ -1,10 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.DataAccess;
-using MyProject_L00181476.Models;
+using MyProject_L00181476.Models.Models;
 
-namespace MyProject_L00181476.Pages.Brands
+namespace MyProject_L00181476.Pages.Admin.Brands
 {
     public class BrandsModel : PageModel
     {

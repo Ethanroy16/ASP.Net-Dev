@@ -1491,6 +1491,30 @@
             "rid": "win"
           }
         }
+      },
+      "RP1.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.23",
+          "RP1.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RP1.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RP1.DataAccess.dll": {}
+        }
+      },
+      "RP1.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/RP1.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RP1.Models.dll": {}
+        }
       }
     }
   },
@@ -3993,6 +4017,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "RP1.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../RP1.DataAccess/RP1.DataAccess.csproj",
+      "msbuildProject": "../RP1.DataAccess/RP1.DataAccess.csproj"
+    },
+    "RP1.Models/1.0.0": {
+      "type": "project",
+      "path": "../RP1.Models/RP1.Models.csproj",
+      "msbuildProject": "../RP1.Models/RP1.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4000,7 +4034,9 @@
       "Microsoft.EntityFrameworkCore >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.23",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.23",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.23"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.23",
+      "RP1.DataAccess >= 1.0.0",
+      "RP1.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4010,11 +4046,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ethan\\OneDrive\\ASP.Net Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
+      "projectUniqueName": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
       "projectName": "MyProject-L00181476",
-      "projectPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
+      "projectPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
       "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net Dev\\MyProject-L00181476\\obj\\",
+      "outputPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4034,7 +4070,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj"
+            },
+            "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj": {
+              "projectPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
