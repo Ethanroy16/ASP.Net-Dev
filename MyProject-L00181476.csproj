@@ -21,12 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Customer\" />
+    <ProjectReference Include="..\RP1.DataAccess\RP1.DataAccess.csproj" />
+    <ProjectReference Include="..\RP1.Models\RP1.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ASP.Net-Dev\RP1.DataAccess\RP1.DataAccess.csproj" />
-    <ProjectReference Include="..\RP1.Services\RP1.Services.csproj" />
+    <Folder Include="Pages\Customer\" />
   </ItemGroup>
 
 </Project>

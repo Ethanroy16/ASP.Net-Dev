@@ -12,7 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.23",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23",
           "RP1.DataAccess": "1.0.0",
-          "RP1.Services": "1.0.0"
+          "RP1.Models": "1.0.0"
         },
         "runtime": {
           "MyProject-L00181476.dll": {}
@@ -789,7 +789,6 @@
       "RP1.DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.23",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23",
           "RP1.Models": "1.0.0"
         },
         "runtime": {
@@ -802,17 +801,6 @@
       "RP1.Models/1.0.0": {
         "runtime": {
           "RP1.Models.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "RP1.Services/1.0.0": {
-        "dependencies": {
-          "RP1.DataAccess": "1.0.0"
-        },
-        "runtime": {
-          "RP1.Services.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1175,11 +1163,6 @@
       "sha512": ""
     },
     "RP1.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "RP1.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

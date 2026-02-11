@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using MyProject_L00181476.DataAccess;
-using RP1.DataAccess.Repository;
-using RP1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +8,6 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddDbContext<GolfDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-builder.Services.AddScoped<IBrandRepo, BrandRepo>();
 
 var app = builder.Build();
 

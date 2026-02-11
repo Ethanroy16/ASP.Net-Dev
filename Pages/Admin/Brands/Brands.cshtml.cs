@@ -1,26 +1,25 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.DataAccess;
 using MyProject_L00181476.Models.Models;
-using RP1.DataAccess.Repository;
 
 namespace MyProject_L00181476.Pages.Admin.Brands
 {
     public class BrandsModel : PageModel
     {
-        private readonly IBrandRepo _dbcontext;
+        private readonly GolfDBContext _dbcontext;
 
         // Exposed public property for the Razor view to bind to
-        public IEnumerable<Brand> Brands;
+        public IEnumerable<Brand> Brands { get; private set; } = Enumerable.Empty<Brand>();
 
-        public BrandsModel(IBrandRepo brandRepo)
+        public BrandsModel(GolfDBContext dbcontext)
         {
-            _dbcontext = brandRepo;
+            _dbcontext = dbcontext;
         }
 
         public void OnGet()
         {
             // Materialize the query to a list so the view can iterate safely
-            Brands = _dbcontext.GetAll();
+            Brands = _dbcontext.Brands;
         }
     }
 }

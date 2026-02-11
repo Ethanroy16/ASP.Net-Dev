@@ -1,60 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\",
+  "WorkspaceRootPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73454F77-A8C0-4718-B57A-A7C818F14D47}|..\\RP1.Services\\RP1.Services.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\rp1.services\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev\\myproject-l00181476\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73454F77-A8C0-4718-B57A-A7C818F14D47}|..\\RP1.Services\\RP1.Services.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\rp1.services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\brands.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\brands.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\brands.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\brands.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\desktop\\tutorial3\\asp.net-dev\\pages\\admin\\brands\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\brands\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AF8B28-98A4-EBF0-C56E-01696483524F}|..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev\\rp1.dataaccess\\repository\\ibrandrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AF8B28-98A4-EBF0-C56E-01696483524F}|..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev\\rp1.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6AF8B28-98A4-EBF0-C56E-01696483524F}|..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev\\rp1.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F37BEBD-09B0-4A3B-DB02-720F74E56E6B}|..\\..\\..\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev\\rp1.models\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev\\myproject-l00181476\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,202 +21,29 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-28T20:39:16.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\RP1.Services\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\RP1.Services\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\RP1.Services\\UnitOfWork.cs",
-              "RelativeToolTip": "..\\RP1.Services\\UnitOfWork.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T21:17:30.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\RP1.Services\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\RP1.Services\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\RP1.Services\\IUnitOfWork.cs",
-              "RelativeToolTip": "..\\RP1.Services\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T21:15:51.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Create.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Create.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Create.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAIAwwB0AAABPAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\MyProject-L00181476\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-04T20:51:01.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Delete.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Delete.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAIAwwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-04T20:50:42.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Edit.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Edit.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAIAwwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-04T20:50:29.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Edit.cshtml.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Edit.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Edit.cshtml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:40:25.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Delete.cshtml.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Delete.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Delete.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwCUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:35:53.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Brands.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Brands.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Brands.cshtml.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Brands.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Brands.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:33:21.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Brands.cshtml",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Brands.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Brands.cshtml",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Brands.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Brands.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-04T20:33:20.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Brands\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Pages\\Admin\\Brands\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\Brands\\Create.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:29:47.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IBrandRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IBrandRepo.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IBrandRepo.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IBrandRepo.cs",
-              "RelativeToolTip": "..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IBrandRepo.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:04:35.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\Desktop\\Tutorial3\\ASP.Net-Dev\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:45:18.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\Repository.cs",
-              "RelativeToolTip": "..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\Repository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:38:22.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IRepository.cs",
-              "RelativeToolTip": "..\\..\\..\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:38:07.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.Models\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\ASP.Net-Dev\\RP1.Models\\Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.Models\\Models\\Brand.cs",
-              "RelativeToolTip": "..\\..\\..\\ASP.Net-Dev\\RP1.Models\\Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T19:36:20.458Z",
+              "WhenOpened": "2026-01-28T20:34:47.935Z",
               "EditorCaption": ""
             }
           ]
