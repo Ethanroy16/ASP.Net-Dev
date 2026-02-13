@@ -83,6 +83,53 @@ namespace RP1.DataAccess.Migrations
                             FoundedYear = 1973
                         });
                 });
+
+            modelBuilder.Entity("MyProject_L00181476.Models.Models.GolfBall", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<float?>("Price")
+                        .HasColumnType("real");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BrandId");
+
+                    b.ToTable("GolfBalls");
+                });
+
+            modelBuilder.Entity("MyProject_L00181476.Models.Models.GolfBall", b =>
+                {
+                    b.HasOne("MyProject_L00181476.Models.Models.Brand", "Brand")
+                        .WithMany("GolfBalls")
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Brand");
+                });
+
+            modelBuilder.Entity("MyProject_L00181476.Models.Models.Brand", b =>
+                {
+                    b.Navigation("GolfBalls");
+                });
 #pragma warning restore 612, 618
         }
     }

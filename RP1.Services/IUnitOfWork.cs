@@ -11,5 +11,7 @@ namespace RP1.Services
     {
         IBrandRepo BrandRepo { get; }
         void Save();
+
+        IGolfBallRepo GolfBallRepo { get; }
     }
 }

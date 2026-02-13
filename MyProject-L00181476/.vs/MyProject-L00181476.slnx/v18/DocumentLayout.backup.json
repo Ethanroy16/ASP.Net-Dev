@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\rp1.models\\models\\golfball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\admin\\golfballs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\admin\\golfballs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\myproject-l00181476\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.DataAccess\\Migrations\\20260213140533_Num4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66603719-DF75-9CC5-EA66-37E5947F65BF}|..\\RP1.Services\\RP1.Services.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\rp1.services\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66603719-DF75-9CC5-EA66-37E5947F65BF}|..\\RP1.Services\\RP1.Services.csproj|c:\\users\\ethan\\onedrive\\asp.net-dev-v2fri13\\rp1.services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwCcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:07:15.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:20:29.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:19:05.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:07:24.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:07:22.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Edit.cshtml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAASwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:18:27.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Create.cshtml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:07:19.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GolfBall.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Models\\Models\\GolfBall.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\GolfBall.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Models\\Models\\GolfBall.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\GolfBall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T20:24:04.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:02:49.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\GolfBalls\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Admin\\GolfBalls\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\GolfBalls\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:02:42.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260213140533_Num4.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.DataAccess\\Migrations\\20260213140533_Num4.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Migrations\\20260213140533_Num4.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.DataAccess\\Migrations\\20260213140533_Num4.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Migrations\\20260213140533_Num4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:05:34.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\MyProject-L00181476\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T14:04:05.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Services\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Services\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Services\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\RP1.Services\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:02:29.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Services\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Services\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Services\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\RP1.Services\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T14:02:25.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,8 @@ namespace MyProject_L00181476.DataAccess
 
         public DbSet<Brand> Brands { get; set; }
 
+        public DbSet<GolfBall> GolfBalls { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

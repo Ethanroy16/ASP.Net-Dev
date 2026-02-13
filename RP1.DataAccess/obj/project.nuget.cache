@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PwxcJUjJDqg=",
+  "dgSpecHash": "HY4ioBm7RjI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.DataAccess\\RP1.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ethan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
