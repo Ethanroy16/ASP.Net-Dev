@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="../../../ASP.Net-Dev/RP1.DataAccess/RP1.DataAccess.csproj" />
-  <Project Path="../../../ASP.Net-Dev/RP1.Models/RP1.Models.csproj" />
-  <Project Path="../RP1.Services/RP1.Services.csproj" Id="73454f77-a8c0-4718-b57a-a7c818f14d47" />
-  <Project Path="MyProject-L00181476.csproj" />
-</Solution>

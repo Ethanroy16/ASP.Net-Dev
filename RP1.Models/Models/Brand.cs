@@ -10,12 +10,14 @@ namespace MyProject_L00181476.Models.Models
 
         [Required]
         [StringLength(12)]
-        public string BrandName { get; set; }
+        public required string BrandName { get; set; }
 
         [StringLength(15)]
         public string? Country { get; set; }
 
         public int? FoundedYear { get; set; }
+
+        public List<GolfBall>? GolfBalls { get; set; }
 
     }
 }
