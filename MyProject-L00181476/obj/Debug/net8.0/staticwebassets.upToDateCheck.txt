@@ -1,7 +1,7 @@
-wwwroot\Images\GolfBalls\57ef1f0e-6f0d-46d4-a32f-f858ebd3239d.jpg
-wwwroot\Images\GolfBalls\c1050d0d-ac8f-43fd-ad4e-26e562be2e51.webp
-wwwroot\Images\GolfBalls\d7176981-e66e-4ed7-a456-170176014dc1.webp
-wwwroot\Images\GolfBalls\fe6e2af5-5d57-4f7f-b21d-e8a0aaee2084.jpg
+wwwroot\Images\GolfBalls\12a14f1d-f10f-4e8e-9093-3ef249c46a6d.jpg
+wwwroot\Images\GolfBalls\432c7487-42c5-4bf9-99de-32c426beb72a.jpg
+wwwroot\Images\GolfBalls\91296e3e-ce57-49fd-a551-b38df890adde.jpg
+wwwroot\Images\GolfBalls\de98eeed-8c5a-4e50-b638-ba8e5e7a89e9.jpg
 wwwroot\css\bootstrap.css
 wwwroot\css\site.css
 wwwroot\favicon.ico

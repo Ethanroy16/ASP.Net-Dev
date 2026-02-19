@@ -41,31 +41,47 @@ namespace MyProject_L00181476.Pages.Admin.GolfBalls
 
         public IActionResult OnPost()
         {
-            string wwwRootFolder = _webHostEnvironment.WebRootPath;
+            string wwwRootFolder = _webHostEnvironment.WebRootPath ?? "";
             var files = HttpContext.Request.Form.Files;
             var golfFromDB = _unitOfWork.GolfBallRepo.Get(GolfBall.Id);
 
-            if(files.Count > 0)
+            // Ensure we preserve existing image when user doesn't upload a new one
+            if (files.Count > 0 && files[0] != null && files[0].Length > 0)
             {
-                string new_fileName = Guid.NewGuid().ToString();
+                string newFileName = Guid.NewGuid().ToString();
+                var uploadFolder = Path.Combine(wwwRootFolder, "images", "golfballs");
+                Directory.CreateDirectory(uploadFolder);
 
-                var upload = Path.Combine(wwwRootFolder, @"images\golfballs");
+                var extension = Path.GetExtension(files[0].FileName) ?? "";
 
-                var extension = Path.GetExtension(files[0].FileName);
-                if (golfFromDB != null)
+                // Delete old file if any and if referenced
+                if (!string.IsNullOrWhiteSpace(golfFromDB?.ImageUrl))
                 {
-                    var oldFile = Path.Combine(wwwRootFolder, golfFromDB.ImageUrl.TrimStart('\\'));
+                    // ImageUrl stored as a relative URL like "/images/golfballs/xyz.jpg" or "\images\golfballs\xyz.jpg"
+                    var relative = golfFromDB.ImageUrl.TrimStart('\\', '/').Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
+                    var oldFile = Path.Combine(wwwRootFolder, relative);
                     if (System.IO.File.Exists(oldFile))
                     {
                         System.IO.File.Delete(oldFile);
                     }
                 }
-                using (var fileStream = new FileStream(Path.Combine(upload, new_fileName + extension), FileMode.Create))
+
+                var savedFileName = newFileName + extension;
+                var savedPath = Path.Combine(uploadFolder, savedFileName);
+                using (var fileStream = new FileStream(savedPath, FileMode.Create))
                 {
                     files[0].CopyTo(fileStream);
                 }
-                    GolfBall.ImageUrl = @"\images\folfballs\" + new_fileName + extension;
+
+                // Store a web-friendly relative path for use in <img src="...">
+                GolfBall.ImageUrl = $"/images/golfballs/{savedFileName}";
             }
+            else
+            {
+                // No new file uploaded -> keep existing image URL (if any)
+                GolfBall.ImageUrl = golfFromDB?.ImageUrl;
+            }
+
             if (ModelState.IsValid)
             {
                 _unitOfWork.GolfBallRepo.Update(GolfBall);

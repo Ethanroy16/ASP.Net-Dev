@@ -7,7 +7,7 @@
 namespace RP1.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class Num1 : Migration
+    public partial class num1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -59,7 +59,18 @@ namespace RP1.DataAccess.Migrations
                     { 2, "Callaway", "USA", 1982 },
                     { 3, "TaylorMade", "USA", 1979 },
                     { 4, "Ping", "USA", 1959 },
-                    { 5, "Cobra", "USA", 1973 }
+                    { 5, "Srixon", "Japan", 1996 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "GolfBalls",
+                columns: new[] { "Id", "BrandId", "Description", "ImageUrl", "Name", "Price" },
+                values: new object[,]
+                {
+                    { 1, 1, "Premium tour-level performance with soft feel and long distance.", null, "Pro V1", 54.99f },
+                    { 2, 3, "5-layer tour ball delivering speed and spin control.", null, "TP5", 52.99f },
+                    { 3, 5, "Tour performance ball with exceptional greenside spin.", null, "Z-Star", 49.99f },
+                    { 4, 2, "Soft feel with high ball speeds and excellent control.", null, "Chrome Soft", 50.99f }
                 });
 
             migrationBuilder.CreateIndex(

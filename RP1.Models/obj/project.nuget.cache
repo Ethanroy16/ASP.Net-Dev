@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LDr6rg0w1WQ=",
+  "dgSpecHash": "aVILm2Ols9g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Models\\RP1.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
+  ],
   "logs": []
 }
