@@ -15,24 +15,6 @@ C:\Users\ethan\OneDrive\Desktop\Tutorial3\RP1.Services\obj\Debug\net8.0\RP1.Serv
 C:\Users\ethan\OneDrive\Desktop\Tutorial3\RP1.Services\obj\Debug\net8.0\refint\RP1.Services.dll
 C:\Users\ethan\OneDrive\Desktop\Tutorial3\RP1.Services\obj\Debug\net8.0\RP1.Services.pdb
 C:\Users\ethan\OneDrive\Desktop\Tutorial3\RP1.Services\obj\Debug\net8.0\ref\RP1.Services.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.deps.json
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.pdb
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.DataAccess.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Models.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.DataAccess.pdb
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Models.pdb
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.csproj.AssemblyReference.cache
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.AssemblyInfoInputs.cache
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.AssemblyInfo.cs
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.csproj.CoreCompileInputs.cache
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.sourcelink.json
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Serv.49EBF1D0.Up2Date
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\refint\RP1.Services.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.pdb
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\ref\RP1.Services.dll
 C:\Users\Edwina.Sweeney\OneDrive - Atlantic TU\Documents\ASP.Net-Dev (2)\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.deps.json
 C:\Users\Edwina.Sweeney\OneDrive - Atlantic TU\Documents\ASP.Net-Dev (2)\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.dll
 C:\Users\Edwina.Sweeney\OneDrive - Atlantic TU\Documents\ASP.Net-Dev (2)\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.pdb
@@ -87,3 +69,21 @@ C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Services\obj\Debug\net8.0\RP1.Se
 C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Services\obj\Debug\net8.0\refint\RP1.Services.dll
 C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Services\obj\Debug\net8.0\RP1.Services.pdb
 C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Services\obj\Debug\net8.0\ref\RP1.Services.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.deps.json
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Services.pdb
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.DataAccess.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Models.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.DataAccess.pdb
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\bin\Debug\net8.0\RP1.Models.pdb
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.csproj.AssemblyReference.cache
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.AssemblyInfoInputs.cache
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.AssemblyInfo.cs
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.csproj.CoreCompileInputs.cache
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.sourcelink.json
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Serv.49EBF1D0.Up2Date
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\refint\RP1.Services.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\RP1.Services.pdb
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Services\obj\Debug\net8.0\ref\RP1.Services.dll

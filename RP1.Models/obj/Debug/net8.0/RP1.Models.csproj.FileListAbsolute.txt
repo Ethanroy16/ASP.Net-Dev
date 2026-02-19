@@ -1,15 +1,3 @@
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.deps.json
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.pdb
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.AssemblyInfoInputs.cache
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.AssemblyInfo.cs
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.csproj.CoreCompileInputs.cache
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.sourcelink.json
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\refint\RP1.Models.dll
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.pdb
-C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\ref\RP1.Models.dll
 C:\Users\Edwina.Sweeney\OneDrive - Atlantic TU\Documents\ASP.Net-Dev (2)\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.deps.json
 C:\Users\Edwina.Sweeney\OneDrive - Atlantic TU\Documents\ASP.Net-Dev (2)\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.dll
 C:\Users\Edwina.Sweeney\OneDrive - Atlantic TU\Documents\ASP.Net-Dev (2)\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.pdb
@@ -46,3 +34,15 @@ C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Models\obj\Debug\net8.0\RP1.Mode
 C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Models\obj\Debug\net8.0\refint\RP1.Models.dll
 C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Models\obj\Debug\net8.0\RP1.Models.pdb
 C:\Users\ethan\OneDrive\ASP.Net-Dev-v2Fri13\RP1.Models\obj\Debug\net8.0\ref\RP1.Models.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.deps.json
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\bin\Debug\net8.0\RP1.Models.pdb
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.AssemblyInfoInputs.cache
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.AssemblyInfo.cs
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.csproj.CoreCompileInputs.cache
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.sourcelink.json
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\refint\RP1.Models.dll
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.pdb
+C:\Users\ethan\OneDrive\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\ref\RP1.Models.dll

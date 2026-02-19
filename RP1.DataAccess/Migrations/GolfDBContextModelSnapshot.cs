@@ -78,9 +78,9 @@ namespace RP1.DataAccess.Migrations
                         new
                         {
                             Id = 5,
-                            BrandName = "Cobra",
-                            Country = "USA",
-                            FoundedYear = 1973
+                            BrandName = "Srixon",
+                            Country = "Japan",
+                            FoundedYear = 1996
                         });
                 });
 
@@ -113,6 +113,40 @@ namespace RP1.DataAccess.Migrations
                     b.HasIndex("BrandId");
 
                     b.ToTable("GolfBalls");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BrandId = 1,
+                            Description = "Premium tour-level performance with soft feel and long distance.",
+                            Name = "Pro V1",
+                            Price = 54.99f
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BrandId = 3,
+                            Description = "5-layer tour ball delivering speed and spin control.",
+                            Name = "TP5",
+                            Price = 52.99f
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BrandId = 5,
+                            Description = "Tour performance ball with exceptional greenside spin.",
+                            Name = "Z-Star",
+                            Price = 49.99f
+                        },
+                        new
+                        {
+                            Id = 4,
+                            BrandId = 2,
+                            Description = "Soft feel with high ball speeds and excellent control.",
+                            Name = "Chrome Soft",
+                            Price = 50.99f
+                        });
                 });
 
             modelBuilder.Entity("MyProject_L00181476.Models.Models.GolfBall", b =>

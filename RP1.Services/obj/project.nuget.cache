@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Ac4TbdGXEE=",
+  "dgSpecHash": "XRridmGWisE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev-v2Fri13\\RP1.Services\\RP1.Services.csproj",
+  "projectFilePath": "C:\\Users\\ethan\\OneDrive\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ethan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -58,7 +58,10 @@
     "C:\\Users\\ethan\\.nuget\\packages\\system.text.encodings.web\\6.0.1\\system.text.encodings.web.6.0.1.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\ethan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\ethan\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
   ],
   "logs": []
 }
