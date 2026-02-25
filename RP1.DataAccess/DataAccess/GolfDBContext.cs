@@ -1,10 +1,11 @@
 ﻿using MyProject_L00181476.Models.Models;
 using MyProject_L00181476.DataAccess;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace MyProject_L00181476.DataAccess
 {
-    public class GolfDBContext : DbContext
+    public class GolfDBContext : IdentityDbContext
     {
         public GolfDBContext(DbContextOptions<GolfDBContext> options) : base(options)
         {
