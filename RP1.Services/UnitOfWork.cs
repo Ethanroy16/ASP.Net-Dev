@@ -16,11 +16,20 @@ namespace RP1.Services
         public IBrandRepo BrandRepo { get; private set;  }
         public IGolfBallRepo GolfBallRepo { get; private set; }
 
+        public IApplicationUserRepo ApplicationUserRepo {  get; private set; }
+        public IOrderRepo OrderRepo { get; private set; }
+        public IOrderItemRepo OrderItemRepo { get; private set; }
+        public IShoppingCartRepo ShoppingCartRepo { get; private set; }
+
         public UnitOfWork(GolfDBContext dbContext)
         {
             _dbContext = dbContext;
             BrandRepo = new BrandRepo(_dbContext);
             GolfBallRepo = new GolfBallRepo(_dbContext);
+            ApplicationUserRepo = new ApplicationUserRepo(_dbContext);
+            OrderRepo = new OrderRepo(_dbContext);
+            OrderItemRepo = new OrderItemRepo(_dbContext);
+            ShoppingCartRepo = new ShoppingCartRepo(_dbContext);
         }
         public void Dispose()
         {

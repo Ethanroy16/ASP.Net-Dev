@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MyProject_L00181476.Models.Models
 {
@@ -15,6 +17,8 @@ namespace MyProject_L00181476.Models.Models
         public string? Description { get; set; }
 
         public int BrandId { get; set; }
+        [ForeignKey("BrandId")]
+        [ValidateNever]
         public Brand? Brand { get; set; }
     }
 }

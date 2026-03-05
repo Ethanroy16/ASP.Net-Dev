@@ -58,3 +58,4 @@ D:\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.dll
 D:\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\refint\RP1.Models.dll
 D:\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.pdb
 D:\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\ref\RP1.Models.dll
+D:\ASP.Net-Dev\RP1.Models\obj\Debug\net8.0\RP1.Models.csproj.AssemblyReference.cache
