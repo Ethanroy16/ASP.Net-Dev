@@ -1,0 +1,66 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using MyProject_L00181476.Models.Models;
+using RP1.Services;
+using RP1.Models.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
+
+namespace MyProject_L00181476.Pages.Customer.Home
+{
+    [Authorize(Roles="Customer, Admin")]
+    public class DetailsModel : PageModel
+    {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public DetailsModel(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+        [BindProperty]
+        public ShoppingCart ShoppingCart { get; set; }
+        public GolfBall GolfBall { get; set; }
+        public void OnGet(int id)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+            ShoppingCart = new()
+            {
+                ApplicationUserId = claim.Value,
+                Quantity = 1,
+                GolfBall = _unitOfWork.GolfBallRepo.Get(id),
+                ProductId = id
+            };
+        }
+
+        public IActionResult OnPost(int id, int quantity)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToPage("/Login");
+            }
+
+            var product = _unitOfWork.GolfBallRepo.Get(id);
+            if (product == null)
+            {
+                return RedirectToPage("Index");
+            }
+
+            var cart = new RP1.Models.Models.ShoppingCart
+            {
+                ProductId = id,
+                Quantity = quantity <= 0 ? 1 : quantity,
+                ApplicationUserId = userId,
+                CartTotal = (product.Price ?? 0) * (quantity <= 0 ? 1 : quantity)
+            };
+
+            _unitOfWork.ShoppingCartRepo.Add(cart);
+            _unitOfWork.Save();
+
+            return RedirectToPage("Index");
+        }
+    }
+}

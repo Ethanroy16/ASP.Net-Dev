@@ -1086,3 +1086,8 @@ D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\refint\MyProject-L00181476.d
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.pdb
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.genruntimeconfig.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\ref\MyProject-L00181476.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\swae.build.ex.cache

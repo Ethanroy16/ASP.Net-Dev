@@ -11,5 +11,6 @@ namespace RP1.DataAccess.Repository
     {
 
         public void Update(GolfBall golfBall);
+        GolfBall GetGolfBallByName(string name);
     }
 }
