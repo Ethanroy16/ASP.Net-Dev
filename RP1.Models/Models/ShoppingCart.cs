@@ -13,8 +13,9 @@ namespace RP1.Models.Models
     {
         public int Id { get; set; }
 
-        public int ProductId { get; set; }
-        [ForeignKey("ProductId")]
+        [Column("ProductId")]
+        public int GolfBallId { get; set; }
+        [ForeignKey("GolfBallId")]
         [ValidateNever]
         public GolfBall GolfBall { get; set; }
         public int Quantity { get; set; }

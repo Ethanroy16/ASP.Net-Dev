@@ -1,12 +1,299 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ASP.Net-Dev\\MyProject-L00181476\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|d:\\asp.net-dev\\rp1.models\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|d:\\asp.net-dev\\myproject-l00181476\\rp1.dataaccess\\repository\\shoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:rp1.dataaccess\\repository\\shoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\orderitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\ishoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\iapplicationuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\golfballrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\applicationuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|d:\\asp.net-dev\\rp1.models\\models\\golfball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\repository\\shoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78E81F9D-01F4-80C6-965E-3344D96465E0}|..\\RP1.DataAccess\\RP1.DataAccess.csproj|d:\\asp.net-dev\\rp1.dataaccess\\dataaccess\\golfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|d:\\asp.net-dev\\myproject-l00181476\\pages\\customer\\home\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\customer\\home\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|d:\\asp.net-dev\\myproject-l00181476\\pages\\customer\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DAABF33-41F2-C6D1-0D5A-1DF0C4E4610B}|MyProject-L00181476.csproj|solutionrelative:pages\\customer\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|d:\\asp.net-dev\\rp1.models\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|d:\\asp.net-dev\\rp1.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|d:\\asp.net-dev\\rp1.models\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98A6765-2A42-DF81-82B3-39C64582463F}|..\\RP1.Models\\RP1.Models.csproj|d:\\asp.net-dev\\rp1.models\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IShoppingCartRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IShoppingCartRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\IShoppingCartRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IShoppingCartRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\IShoppingCartRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:51:06.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GolfBallRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\GolfBallRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\GolfBallRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\GolfBallRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\GolfBallRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:52:24.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItemRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\OrderItemRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\OrderItemRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\OrderItemRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\OrderItemRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:52:18.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\OrderRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\OrderRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\OrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:51:21.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingCartRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\MyProject-L00181476\\RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "RelativeDocumentMoniker": "RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\MyProject-L00181476\\RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "RelativeToolTip": "RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:04:55.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\ShoppingCart.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:57:03.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IApplicationUserRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IApplicationUserRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\IApplicationUserRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\IApplicationUserRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\IApplicationUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:29:37.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUserRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\ApplicationUserRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\ApplicationUserRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\ApplicationUserRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\ApplicationUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:29:33.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShoppingCartRepo.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\Repository\\ShoppingCartRepo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:50:27.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\OrderItem.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:56:28.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\Order.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\Order.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:56:25.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:56:19.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GolfDBContext.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.DataAccess\\DataAccess\\GolfDBContext.cs",
+              "RelativeDocumentMoniker": "..\\RP1.DataAccess\\DataAccess\\GolfDBContext.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.DataAccess\\DataAccess\\GolfDBContext.cs",
+              "RelativeToolTip": "..\\RP1.DataAccess\\DataAccess\\GolfDBContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:17:15.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GolfBall.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\GolfBall.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\GolfBall.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\GolfBall.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\GolfBall.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:56:11.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\MyProject-L00181476\\Pages\\Customer\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Customer\\Home\\Details.cshtml",
+              "ToolTip": "D:\\ASP.Net-Dev\\MyProject-L00181476\\Pages\\Customer\\Home\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Customer\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-11T20:02:46.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\MyProject-L00181476\\Pages\\Customer\\Home\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Customer\\Home\\Details.cshtml.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\MyProject-L00181476\\Pages\\Customer\\Home\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Customer\\Home\\Details.cshtml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAASwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T20:03:12.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "..\\RP1.Models\\Models\\Brand.cs",
+              "ToolTip": "D:\\ASP.Net-Dev\\RP1.Models\\Models\\Brand.cs",
+              "RelativeToolTip": "..\\RP1.Models\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:56:20.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MyProject_L00181476.DataAccess;
 using RP1.Models.Models;
 using System;
@@ -11,9 +12,15 @@ namespace RP1.DataAccess.Repository
 {
     public class ShoppingCartRepo : Repository<ShoppingCart>, IShoppingCartRepo
     {
-        public ShoppingCart ImplementItem(string userId, int id)
+        private readonly GolfDBContext _dbContext; 
+
+        public ShoppingCartRepo(GolfDBContext dbContext) : base(dbContext)
         {
-            var ShoppingCartItem = DbContext.ShoppingCarts.Where(p => p.GolfBallId == id && p.ApplicationUserId == userId).FirstOrDefault();
+            _dbContext = dbContext;
+        }
+        public ShoppingCart IncrementItem(string userId, int id)
+        {
+            var ShoppingCartItem = _dbContext.ShoppingCarts.Where(p => p.GolfBallId == id && p.ApplicationUserId == userId).FirstOrDefault();
 
             return ShoppingCartItem;
         }

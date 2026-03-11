@@ -11,6 +11,7 @@ namespace RP1.Models.Models
     public class OrderItem
     {
         public int Id { get; set; }
+        public int GolfBallId { get; set; }
         public GolfBall GolfBall { get; set; }
         public int QtyOrdered { get; set; }
         public int OrderId { get; set; }

@@ -40,10 +40,10 @@ namespace MyProject_L00181476.Pages.Customer.Home
 
             ShoppingCart = new()
             {
-                ApplicationUserId = claim.Value,
-                GolfBall = _unitOfWork.GolfBallRepo.GetGolfBallByName(id),
+                ApplicationUserId = claim?.Value,
+                GolfBall = this.GolfBall,
                 Quantity = 1,
-                ProductId = id
+                GolfBallId = id
             };
 
             return Page();
@@ -53,7 +53,7 @@ namespace MyProject_L00181476.Pages.Customer.Home
         {
             if(ModelState.IsValid)
             {
-                ShoppingCart shoppingCartfromDb = _unitOfWork.ShoppingCartRepo.IncrementItem(ShoppingCart.ApplicationUserId, ShoppingCart.ProductId);
+                ShoppingCart shoppingCartfromDb = _unitOfWork.ShoppingCartRepo.IncrementItem(ShoppingCart.ApplicationUserId, ShoppingCart.GolfBallId);
                 if (shoppingCartfromDb != null)
                 {
                     _unitOfWork.ShoppingCartRepo.Add(ShoppingCart);
