@@ -2,6 +2,7 @@
 using MyProject_L00181476.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using RP1.Models.Models;
 
 namespace MyProject_L00181476.DataAccess
 {
@@ -15,6 +16,11 @@ namespace MyProject_L00181476.DataAccess
         public DbSet<Brand> Brands { get; set; }
 
         public DbSet<GolfBall> GolfBalls { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

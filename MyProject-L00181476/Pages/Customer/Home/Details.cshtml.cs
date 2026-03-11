@@ -2,9 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.Models.Models;
 using RP1.Services;
+using RP1.Models.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MyProject_L00181476.Pages.Customer.Home
 {
+    [Authorize(Roles="Customer, Admin")]
     public class DetailsModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -13,11 +18,54 @@ namespace MyProject_L00181476.Pages.Customer.Home
         {
             _unitOfWork = unitOfWork;
         }
-
+        [BindProperty]
+        public ShoppingCart ShoppingCart { get; set; }
         public GolfBall GolfBall { get; set; }
-        public void OnGet(int id)
+
+        public IActionResult OnGet(int id)
         {
+            if (id == 0)
+            {
+                return RedirectToPage("Index");
+            }
+
             GolfBall = _unitOfWork.GolfBallRepo.Get(id);
+            if (GolfBall == null)
+            {
+                return RedirectToPage("Index");
+            }
+
+            var claimsIdentity = User.Identity as ClaimsIdentity;
+            var claim = claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier);
+
+            ShoppingCart = new()
+            {
+                ApplicationUserId = claim?.Value,
+                GolfBall = this.GolfBall,
+                Quantity = 1,
+                GolfBallId = id
+            };
+
+            return Page();
+        }
+
+        public IActionResult OnPost()
+        {
+            if(ModelState.IsValid)
+            {
+                ShoppingCart shoppingCartfromDb = _unitOfWork.ShoppingCartRepo.IncrementItem(ShoppingCart.ApplicationUserId, ShoppingCart.GolfBallId);
+                if (shoppingCartfromDb != null)
+                {
+                    _unitOfWork.ShoppingCartRepo.Add(ShoppingCart);
+                    _unitOfWork.Save();
+                }
+                else
+                {
+                    _unitOfWork.ShoppingCartRepo.IncrementQty(shoppingCartfromDb, ShoppingCart.Quantity);
+                }
+                return RedirectToPage("Index");
+            }
+            return Page();
         }
     }
 }

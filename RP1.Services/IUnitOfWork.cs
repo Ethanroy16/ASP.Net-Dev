@@ -13,5 +13,11 @@ namespace RP1.Services
         void Save();
 
         IGolfBallRepo GolfBallRepo { get; }
+
+        IOrderRepo OrderRepo { get; }
+        IOrderItemRepo OrderItemRepo { get; }
+        IApplicationUserRepo ApplicationUserRepo { get; }
+        IShoppingCartRepo ShoppingCartRepo { get; }
     }
+
 }

@@ -958,10 +958,13 @@ D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Caching
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
@@ -1065,6 +1068,7 @@ D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.Generate
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.AssemblyInfoInputs.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.AssemblyInfo.cs
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.csproj.CoreCompileInputs.cache
+D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.MvcApplicationPartsAssemblyInfo.cs
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.MvcApplicationPartsAssemblyInfo.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.RazorAssemblyInfo.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.RazorAssemblyInfo.cs
@@ -1079,6 +1083,7 @@ D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\staticwebassets.build.json
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\staticwebassets.development.json
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\swae.build.ex.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProjec.A227F44C.Up2Date
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.dll

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MyProject_L00181476.Pages.PageViewModels;
+using RP1.Models.Models;
 
 namespace MyProject_L00181476.Pages
 {
@@ -12,6 +13,7 @@ namespace MyProject_L00181476.Pages
 
         [BindProperty]
         public Register Register { get; set; }
+        public ApplicationUser ApplicationUser { get; set; }
 
         public RegisterModel(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
         {
@@ -23,8 +25,10 @@ namespace MyProject_L00181476.Pages
         {
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser()
+                var user = new ApplicationUser()
                 {
+                    FirstName = Register.FirstName, LastName = Register.LastName,
+                    PhoneNumber = Register.PhoneNumber,
                     UserName = Register.Email,
                     Email = Register.Email
                 };

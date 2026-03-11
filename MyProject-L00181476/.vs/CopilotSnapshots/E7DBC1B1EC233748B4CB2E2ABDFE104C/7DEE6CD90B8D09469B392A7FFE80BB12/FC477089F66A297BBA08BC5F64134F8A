@@ -1,0 +1,23 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using MyProject_L00181476.Models.Models;
+using RP1.Services;
+
+namespace MyProject_L00181476.Pages.Customer.Home
+{
+    public class DetailsModel : PageModel
+    {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public DetailsModel(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
+        public GolfBall GolfBall { get; set; }
+        public void OnGet(int id)
+        {
+            GolfBall = _unitOfWork.GolfBallRepo.Get(id);
+        }
+    }
+}

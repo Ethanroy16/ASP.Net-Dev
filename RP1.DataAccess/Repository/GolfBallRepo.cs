@@ -12,7 +12,7 @@ namespace RP1.DataAccess.Repository
     {
 
         private readonly GolfDBContext _dbContext;
-        public GolfBallRepo(GolfDBContext dbContext) :base(dbContext)
+        public GolfBallRepo(GolfDBContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
         }
@@ -22,10 +22,18 @@ namespace RP1.DataAccess.Repository
                 FirstOrDefault(GolfFromDB => GolfFromDB.Id == golfBall.Id);
             GolfFromDB.Name = golfBall.Name;
             GolfFromDB.BrandId = golfBall.BrandId;
-            if(golfBall.ImageUrl != null)
+            if (golfBall.ImageUrl != null)
             {
                 GolfFromDB.ImageUrl = golfBall.ImageUrl;
             }
+        }
+
+        GolfBall IGolfBallRepo.GetGolfBallByName(string name)
+        {
+            if (name == "")
+                return null;
+            else
+                return _dbContext.GolfBalls.Where(g => g.Name == name).FirstOrDefault();
         }
     }
 }
