@@ -975,7 +975,6 @@ D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.IdentityModel.Prot
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.ClientModel.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.CodeDom.dll
@@ -985,13 +984,10 @@ D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Composition.Hosting.d
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Composition.Runtime.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Composition.TypedParts.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Drawing.Common.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Memory.Data.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Runtime.Caching.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\System.Windows.Extensions.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -1050,12 +1046,7 @@ D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win-arm\native\Micr
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\RP1.DataAccess.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\RP1.Models.dll
 D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\RP1.Services.dll
@@ -1091,3 +1082,5 @@ D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\refint\MyProject-L00181476.d
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.pdb
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\MyProject-L00181476.genruntimeconfig.cache
 D:\ASP.Net-Dev\MyProject-L00181476\obj\Debug\net8.0\ref\MyProject-L00181476.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ASP.Net-Dev\MyProject-L00181476\bin\Debug\net8.0\Stripe.net.dll

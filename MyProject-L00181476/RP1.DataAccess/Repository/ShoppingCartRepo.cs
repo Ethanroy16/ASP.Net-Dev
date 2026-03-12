@@ -35,5 +35,28 @@ namespace RP1.DataAccess.Repository
             _dbContext.SaveChanges();
             return shoppingCart.Quantity;
         }
+
+        public IEnumerable<ShoppingCart> GetShoppingCartProduct(string userId)
+        {
+            return _dbContext.ShoppingCarts
+                .Include(s => s.GolfBall)
+                    .ThenInclude(g => g.Brand)
+                .Where(s => s.ApplicationUserId == userId)
+                .ToList();
+        }
+
+        public void RemoveAll(IEnumerable<ShoppingCart> items)
+        {
+            _dbContext.ShoppingCarts.RemoveRange(items);
+            _dbContext.SaveChanges();
+        }
+
+        public int DecrementQty(ShoppingCart shoppingCart, int qty)
+        {
+            shoppingCart.Quantity -= qty;
+            if (shoppingCart.Quantity < 0) shoppingCart.Quantity = 0;
+            _dbContext.SaveChanges();
+            return shoppingCart.Quantity;
+        }
     }
 }

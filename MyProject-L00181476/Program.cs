@@ -2,8 +2,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MyProject_L00181476.DataAccess;
+using MyProject_L00181476.Pages.PageViewModels;
 using RP1.DataAccess.Repository;
 using RP1.Services;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IGolfBallRepo, GolfBallRepo>();
 builder.Services.AddScoped<IBrandRepo, BrandRepo>();
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -42,6 +45,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+string key = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+StripeConfiguration.ApiKey = key;
 await app.CreateRolesAsync(builder.Configuration);
 app.UseAuthentication();
 

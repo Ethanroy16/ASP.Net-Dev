@@ -1,0 +1,64 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using RP1.Models.Models;
+using System.Collections.Generic;
+using RP1.Services;
+using System.Net.WebSockets;
+using System.Security.Claims;
+
+namespace MyProject_L00181476.Pages.Customer.Cart
+{
+    public class IndexModel : PageModel
+    {
+        public IEnumerable<ShoppingCart> ShoppingCartList { get; set; } = new List<ShoppingCart>();
+        private readonly IUnitOfWork _unitOfWork;
+        public double CartTotal;
+        public IndexModel(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+        public void OnGet()
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            if (claim != null)
+            {
+                ShoppingCartList = _unitOfWork.ShoppingCartRepo.GetAll();
+                foreach (var item in ShoppingCartList)
+                {
+                    CartTotal += (double)(item.Quantity * item.GolfBall.Price);
+                }
+            }
+        }
+
+        public IActionResult OnPostPlus(int cartID)
+        {
+            var cart = _unitOfWork.ShoppingCartRepo.Get(cartID);
+            _unitOfWork.ShoppingCartRepo.IncrementQty(cart, 1);
+            return RedirectToPage("/Customer/Cart/Index");
+        }
+
+        public IActionResult OnPostMinus(int cartID)
+        {
+            var cart = _unitOfWork.ShoppingCartRepo.Get(cartID);
+            if (cart.Quantity == 1)
+            {
+                _unitOfWork.ShoppingCartRepo.Delete(cart);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                _unitOfWork.ShoppingCartRepo.DecrementQty(cart, 1);
+            }
+            return RedirectToPage("/Customer/Cart/Index");
+        }
+
+        public IActionResult OnPostRemove(int cartID)
+        {
+            var cart = _unitOfWork.ShoppingCartRepo.Get(cartID);
+            _unitOfWork.ShoppingCartRepo.Delete(cart);
+            _unitOfWork.Save();
+            return RedirectToPage("/Customer/Cart/Index");
+        }
+    }
+}

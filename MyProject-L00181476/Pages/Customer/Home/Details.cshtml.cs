@@ -54,7 +54,8 @@ namespace MyProject_L00181476.Pages.Customer.Home
             if(ModelState.IsValid)
             {
                 ShoppingCart shoppingCartfromDb = _unitOfWork.ShoppingCartRepo.IncrementItem(ShoppingCart.ApplicationUserId, ShoppingCart.GolfBallId);
-                if (shoppingCartfromDb != null)
+                // If no existing cart item was found, add a new one. Otherwise increment the existing item's quantity.
+                if (shoppingCartfromDb == null)
                 {
                     _unitOfWork.ShoppingCartRepo.Add(ShoppingCart);
                     _unitOfWork.Save();

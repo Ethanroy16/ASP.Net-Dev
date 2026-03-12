@@ -2,6 +2,10 @@ wwwroot\Images\GolfBalls\12a14f1d-f10f-4e8e-9093-3ef249c46a6d.jpg
 wwwroot\Images\GolfBalls\432c7487-42c5-4bf9-99de-32c426beb72a.jpg
 wwwroot\Images\GolfBalls\91296e3e-ce57-49fd-a551-b38df890adde.jpg
 wwwroot\Images\GolfBalls\de98eeed-8c5a-4e50-b638-ba8e5e7a89e9.jpg
+wwwroot\Images\bag-plus.svg
+wwwroot\Images\cart-70-32.png
+wwwroot\Images\dash-circle.svg
+wwwroot\Images\trash.svg
 wwwroot\css\bootstrap.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
