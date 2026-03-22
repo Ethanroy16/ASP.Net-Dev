@@ -6269,11 +6269,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj",
+      "projectUniqueName": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj",
       "projectName": "RP1.Services",
-      "projectPath": "D:\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj",
+      "projectPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj",
       "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.Net-Dev\\RP1.Services\\obj\\",
+      "outputPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6294,8 +6294,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj": {
-              "projectPath": "D:\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj"
+            "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj"
             }
           }
         }

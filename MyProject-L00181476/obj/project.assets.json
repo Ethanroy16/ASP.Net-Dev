@@ -4869,11 +4869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.Net-Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
+      "projectUniqueName": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
       "projectName": "MyProject-L00181476",
-      "projectPath": "D:\\ASP.Net-Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
+      "projectPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\MyProject-L00181476\\MyProject-L00181476.csproj",
       "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.Net-Dev\\MyProject-L00181476\\obj\\",
+      "outputPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\MyProject-L00181476\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4894,14 +4894,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj": {
-              "projectPath": "D:\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj"
+            "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.DataAccess\\RP1.DataAccess.csproj"
             },
-            "D:\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj": {
-              "projectPath": "D:\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj"
+            "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj": {
+              "projectPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Models\\RP1.Models.csproj"
             },
-            "D:\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj": {
-              "projectPath": "D:\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj"
+            "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj": {
+              "projectPath": "C:\\Users\\ethan\\OneDrive\\Desktop\\ASP.Net-Dev\\RP1.Services\\RP1.Services.csproj"
             }
           }
         }

@@ -1,0 +1,75 @@
+﻿
+using Microsoft.EntityFrameworkCore;
+using NUnit.Framework;
+using NUnit.Framework.Legacy;
+using System.Linq;
+
+namespace RP1.Tests
+{
+    public class AddGolfBallsRecordTest
+    {
+        private golfBalls GolfBallsRecord_One;
+        private golfBalls GolfBallsRecord_Two;
+
+        public AddGolfBallsRecordTest()
+        {
+            GolfBallsRecord_One = new golfBalls()
+            {
+                ID = 1000,
+                Name = "Test Golf Ball 1",
+                Price = 9.99f
+            };
+
+            GolfBallsRecord_Two = new golfBalls()
+            {
+                ID = 2000,
+                Name = "Test Golf Ball 2",
+                Price = 19.99f
+            };
+        }
+
+        [Test]
+        public void SaveGolfBalls_Record_One_CheckValuesFromDB()
+        {
+            var options = new DbContextOptionsBuilder<AppDBContext>()
+                .UseInMemoryDatabase(databaseName: "temp_Razor")
+                .Options;
+
+            using (var context = new AppDBContext(options))
+            {
+                context.golfBalls.Add(GolfBallsRecord_One);
+                context.SaveChanges();
+            }
+
+            using (var context = new AppDBContext(options))
+            {
+                var golfBallFromDB = context.golfBalls.FirstOrDefault(u => u.ID == 1000);
+
+                ClassicAssert.AreEqual(GolfBallsRecord_One.ID, golfBallFromDB.ID);
+                Assert.That(golfBallFromDB.Name, Is.EqualTo(GolfBallsRecord_One.Name));
+            }
+        }
+
+        [Test]
+        public void SaveGolfBalls_Record_Two_CheckValuesFromDB()
+        {
+            var options = new DbContextOptionsBuilder<AppDBContext>()
+                .UseInMemoryDatabase(databaseName: "temp_Razor")
+                .Options;
+
+            using (var context = new AppDBContext(options))
+            {
+                context.golfBalls.Add(GolfBallsRecord_Two);
+                context.SaveChanges();
+            }
+
+            using (var context = new AppDBContext(options))
+            {
+                var golfBallFromDB = context.golfBalls.FirstOrDefault(u => u.ID == 2000);
+
+                ClassicAssert.AreEqual(GolfBallsRecord_Two.ID, golfBallFromDB.ID);
+                Assert.That(golfBallFromDB.Name, Is.EqualTo(GolfBallsRecord_Two.Name));
+            }
+        }
+    }
+}

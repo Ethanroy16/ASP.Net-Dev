@@ -53,6 +53,11 @@ namespace MyProject_L00181476.Pages.Customer.Home
         {
             if(ModelState.IsValid)
             {
+                // Ensure a valid minimum quantity is used
+                if (ShoppingCart.Quantity <= 0)
+                {
+                    ShoppingCart.Quantity = 1;
+                }
                 ShoppingCart shoppingCartfromDb = _unitOfWork.ShoppingCartRepo.IncrementItem(ShoppingCart.ApplicationUserId, ShoppingCart.GolfBallId);
                 // If no existing cart item was found, add a new one. Otherwise increment the existing item's quantity.
                 if (shoppingCartfromDb == null)

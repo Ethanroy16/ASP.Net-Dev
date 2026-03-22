@@ -31,8 +31,9 @@
                                         <p class="text-secondary">@Model.ShoppingCart.GolfBall.Description</p>
                                         
                                         <div class="form-floating my-2">
-                                            <input type="number" name="quantity" class="form-control" aria-required="true" min="1" value="1" />
-                                            <label>Quantity</label>
+                                            <input asp-for="ShoppingCart.Quantity" type="number" class="form-control" aria-required="true" min="1" />
+                                            <label asp-for="ShoppingCart.Quantity">Quantity</label>
+                                            <span asp-validation-for="ShoppingCart.Quantity" class="text-danger"></span>
                                         </div>
                                         <input type="hidden" name="id" value="@Model.ShoppingCart.GolfBall.Id" />
                                     </div>
